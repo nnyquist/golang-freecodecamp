@@ -55,3 +55,26 @@
 - Structs are value types
 - No inheritance, but can use composition via embedding
 - Tags can be added to struct fields to describe field
+
+### If Statements
+
+- Initializer
+- Comparison operators
+- Logical operators
+- Short circuiting
+- `If-else` statements
+- `If-else if` statements
+- Equality and floats
+
+### Switch Statements
+
+- Switching on a tag
+- Cases with multiple tests
+- Initializers
+- Switches with no tags, more verbose syntax
+- Fallthrough
+  - Go has implicit breaks and explicit fallthrough
+  - Any additional case logic is ignored, the next statements will execute regardless
+- Type switches
+  - `i.(type)`
+- Breaking out early
