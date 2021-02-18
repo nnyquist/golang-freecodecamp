@@ -78,3 +78,18 @@
 - Type switches
   - `i.(type)`
 - Breaking out early
+
+### Looping
+
+- For statements
+- simple loops
+  - `for initializer; test; incrementer {}`
+  - `for test {}`
+  - `for {}`
+- exiting early
+  - `break`
+  - `continue` - breaks out of current iteration and goes back to the incrementer
+  - labels
+- looping over collections
+  - arrays, slices, maps, strings, channels
+  - `for k, v := range collection {}`
